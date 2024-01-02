@@ -1,19 +1,20 @@
 # Programming Problem 1: Input, Processing, Output
 
-> The purpose of this assignment is to test your understanding and application of the concepts discussed in **Week 1**: 
+> The purpose of this assignment is to test your understanding and application of the concepts discussed in **Week 1**:
 >
 > - obtain user input
-> - perform calculations and 
+> - perform calculations and
 > - produce valid output
 
 ## Specifications
 
-Write a program (use the file `assignment1.py` in the text editor on the right) to prompt the user to input hours worked and rate per hour. Compute and display the amount to pay. 
+Write a program to prompt the user to input hours worked and rate per hour. Compute and display the amount to pay.
 
+To start the assignment type: code assignment1.py in the terminal below.
 
 *Remember*: You should use input to read a string and float() to convert the string to a number. Do not worry about error checking or bad user data at this point.
 
-## Execute and Test your program 
+## Execute and Test your program
 
 *Remember*: in order to execute your code you type in the terminal:
 ```
@@ -35,9 +36,9 @@ If you want you can test your program with different inputs!
 ## Check Your Code
 
 Execute the below to evaluate the correctness of your code using `check50`, but be sure to test it yourself before that...
-Login with your `GitHub username` and `Personal Access Token` when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token. 
+Login with your `GitHub username` and `Personal Access Token` when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token.
 
-If you do not have generated a Personal Access ToKen follow the instructions: 
+If you do not have generated a Personal Access ToKen follow the instructions:
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
 ```
@@ -54,7 +55,7 @@ style50 problem1.py
 
 ## Submit your code
 
-Execute the command below, logging in with your `GitHub username` and `Personal Access Token` when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token. 
+Execute the command below, logging in with your `GitHub username` and `Personal Access Token` when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token.
 
 ```
 submit50 mkotsovoulou/ods6001a/main/assignments/assignment1
