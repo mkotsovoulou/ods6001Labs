@@ -50,8 +50,6 @@ In this code, there is a function called main() that prints the phrase Hello Wor
 In this program write your code to accept user input in def main():
 
 
-{% next %}
-
 ## Execute and Test your program 
 
 *Remember*: in order to execute your code you type in the terminal:
@@ -75,8 +73,6 @@ sample6.txt should return document
 
 
 
-{% next %}
-
 ## Check Your Code
 
 Execute the below to evaluate the correctness of your code using `check50`, but be sure to test it yourself before that...
@@ -95,7 +91,6 @@ Execute the below to evaluate the style of your code using `style50`.
 style50 assignment4.py
 ```
 
-{% next %}
 
 ## Submit your code
 
