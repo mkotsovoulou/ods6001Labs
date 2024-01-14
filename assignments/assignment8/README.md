@@ -40,7 +40,13 @@ Display only those categories where a product exists!
 
 6. Extra Challenge: import matplotlib.pyplot and create a bar chart of the product category max prices.
 
-{% spoiler "Hint 1 : Nested Loops" %}
+
+<details> 
+<summary>
+Hint 1 : Nested Loops
+</summary>
+
+```
 Loop through the categories and in this Loop, iterate over the products.
 
     - If the product category is equal to the current category from the outer loop
@@ -52,11 +58,9 @@ Loop through the categories and in this Loop, iterate over the products.
             - if yes, assign this product's price to a largest variable...and the name to another variable
 
     - Add the final values to another dictionary called summary with key the category and as a value a list of the required information (product name, price and total category stock)
+```
 
-
-{% endspoiler %}
-
-{% next %}
+</details>
 
 
 ## Execute and Test your program 
