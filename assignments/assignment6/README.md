@@ -30,7 +30,6 @@ I am using sample numbers and not the actual output
 
 ```
 python assignment6.py
-
 ```
 
 
