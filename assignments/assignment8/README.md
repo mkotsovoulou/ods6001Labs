@@ -69,7 +69,6 @@ Loop through the categories and in this Loop, iterate over the products.
 
 ```
 python assignment8.py
-
 ```
 
 
