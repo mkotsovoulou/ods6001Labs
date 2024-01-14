@@ -15,6 +15,10 @@ Add exception handling so if the user types characters instead of a number the p
 
 Compute and display **only** the amount to pay depending on the hours worked.
 
+To start the assignment type in the terminal: 
+```
+code assignment2.py
+```
 
 ## Execute your program 
 
