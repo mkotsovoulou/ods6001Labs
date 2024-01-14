@@ -25,7 +25,10 @@
 6. Calculate the sum of all balances in the list and print it
 
 
-
+To start the assignment type in the terminal: 
+```
+code assignment7.py
+```
 
 ## Execute and Test your program 
 
