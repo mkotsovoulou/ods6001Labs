@@ -4,6 +4,11 @@
 > - implement object classes and develop program to use them
 > - test, debug and predict program behaviour
 
+To start this lab practice type in the terminal: 
+```
+code lab6_2.py
+```
+
 In `lab6_2.py` in the text editor at top-right, The exercise template contains a pre-defined BankAccount class, which can be used to model a BankAccount. Your task is to correct a logical error and create the following methods in the BankAccount Class:
 
 1.  A method to deposit an amount to a BankAccount
