@@ -6,28 +6,33 @@ In `lab1_2.py` in the text editor at top-right, write a few python commands to:
 3. convert the name in upper case letters
 4. display the lowest character in alphabetical order in the name
 
-{% spoiler "Hint 1" %}
+<details> 
+<summary>
+Hint 1: 
+</summary>
+
+```
 - the built-in function to count the characters in a string is: `len()`
 - the built-in function to find the smallest/lowest character in alphabetical order is `min()`
-  
-{% endspoiler %}
+```
 
+</details>
 
-{% next %}
 Keep in mind that the sample solution is not the only solution. There are different ways to reach to the same result...
 
 And here is the Solution...
 
-{% spoiler "Sample Solution" %}
-
+<details> 
+<summary>
+Sample Solution: 
+</summary>
 ```
 name = input("What is your name?")
 print(len(name))
 name = name.upper()
 print(min(name))
 ```
-
-{% endspoiler %}
+</details>
 
 ### Execute your program 
 
