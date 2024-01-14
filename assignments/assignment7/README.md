@@ -25,7 +25,6 @@
 6. Calculate the sum of all balances in the list and print it
 
 
-{% next %}
 
 
 ## Execute and Test your program 
@@ -56,7 +55,6 @@ Execute the below to evaluate the style of your code using `style50`.
 style50 assignment7.py
 ```
 
-{% next %}
 
 ## Submit your code
 
