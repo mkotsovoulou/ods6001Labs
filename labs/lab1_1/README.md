@@ -17,7 +17,6 @@ Execute your program by typing: `python lab1_1.py` in the terminal window at bot
 How curious!
 - Python thinks that 1+1=11
 
-{% next %}
 
 ### Not what you expected!
 Contrary to what this program thinks, 1 plus 1 does not equal 11! The sum should, of course, equal 2.
@@ -46,8 +45,6 @@ Hint 2:
 
 </details>
 
-{% next %}
-
 If you want extra help... here is the solution:
 
 <details> 
@@ -71,7 +68,6 @@ python lab1_1.py
 ```
 Make sure that the output is 2.0!
 
-{% next %}
 
 ### Check Your Code
 
@@ -87,7 +83,6 @@ Execute the below to evaluate the style of your code using `style50`.
 style50 lab1_1.py
 ```
 
-{% next %}
 
 ## Submit your code
 
