@@ -46,7 +46,6 @@ python lab1_2.py
 
 Make sure that the output is correct. For `John` it should display `4`, and the lowest letter is `H` (in uppercase)
 
-{% next %}
 
 ### Check Your Code
 
@@ -62,7 +61,6 @@ Execute the below to evaluate the style of your code using `style50`.
 style50 lab1_2.py
 ```
 
-{% next %}
 
 ## Submit your code
 
