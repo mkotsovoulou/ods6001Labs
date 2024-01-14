@@ -4,6 +4,11 @@
 > - implement object classes and develop program to use them
 > - test, debug and predict program behaviour
 
+To start this lab practice type in the terminal: 
+```
+code lab6_1.py
+```
+
 In `lab6_1.py` in the text editor at top-right, The exercise template contains a pre-defined ShoppingList class, which can be used to model a shopping list. Your task is to add a method to the class definition. You do not need to change any methods already defined.
 
 ## Specifications
