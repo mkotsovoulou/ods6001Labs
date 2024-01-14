@@ -2,7 +2,7 @@
 
 Recall that Python supports multiple "data types" among them strings, floats and integers. It is important to note that the data type of a variable matters!
 
-To start the assignment type in the terminal: 
+To start this lab practice type in the terminal: 
 ```
 code lab1_1.py
 ```
