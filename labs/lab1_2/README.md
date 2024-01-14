@@ -26,12 +26,14 @@ And here is the Solution...
 <summary>
 Sample Solution: 
 </summary>
+  
 ```
 name = input("What is your name?")
 print(len(name))
 name = name.upper()
 print(min(name))
 ```
+  
 </details>
 
 ### Execute your program 
