@@ -31,6 +31,10 @@ When the data are loaded and processed produce:
 1. The total amount of profit/loss from all stocks rounded in the nearest integer (display it in the screen)
 2. Write to a file called `results.txt` the contents of the dictionary. Display the Stock Symbol and the amount of profit or loss. You may need to think about the sign...
 
+To start the assignment type in the terminal: 
+```
+code assignment5.py
+```
 
 ### Hint 1 : 
 Use the appropriate data structure which can utilize the stock symbol as the key: i.e. AAPL, and the running amount amount of profit/loss as a value. Ignore the dates during your load.
