@@ -2,7 +2,12 @@
 
 Recall that Python supports multiple "data types" among them strings, floats and integers. It is important to note that the data type of a variable matters!
 
-Open `lab1_1.py` in the text editor. At first glance, it looks like it
+To start the assignment type in the terminal: 
+```
+code lab1_1.py
+```
+
+At first glance, the program looks like it
 
 1. prompts the user for two inputs, `x` and `y`,
 2. adds `x` and `y`, storing the sum in `z`, and
