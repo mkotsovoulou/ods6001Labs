@@ -71,13 +71,13 @@ Make sure that the output is 2.0!
 
 ### Check Your Code
 
-Execute the below to evaluate the correctness of your code using `check50`, but be sure to test it yourself before that...
+Execute the command below to evaluate the correctness of your code using `check50`, but be sure to test it yourself before that...
 
 ```
 check50 mkotsovoulou/ods6001a/main/labs/lab1_1
 ```
 
-Execute the below to evaluate the style of your code using `style50`.
+Execute the command below to evaluate the style of your code using `style50`.
 
 ```
 style50 lab1_1.py
