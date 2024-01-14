@@ -12,7 +12,7 @@ In `lab5_1.py` in the text editor at top-right, write a program which will read 
 You can use the text file `article1.txt` provided in the workspace as sample input, but you can upload your own text file if you want...
 
 
-{% next %}
+
 
 ## Algorithm
 
@@ -88,7 +88,7 @@ lst.sort(reverse=True)
 
 * Step 8: Print the first tuple in the list
 
-{% next %}
+
 
 ## Execute your program 
 
@@ -121,7 +121,6 @@ Execute the below to evaluate the style of your code using `style50`.
 style50 lab5_1.py
 ```
 
-{% next %}
 
 ## Submit your code
 
