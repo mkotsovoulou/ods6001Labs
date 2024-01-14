@@ -15,7 +15,6 @@ Add exception handling so if the user types characters instead of a number the p
 
 Compute and display **only** the amount to pay depending on the hours worked.
 
-{% next %}
 
 ## Execute your program 
 
@@ -55,7 +54,6 @@ Wrong input
 ----------------------------------------------------------------
 If you want you can test your program with different inputs!
 
-{% next %}
 
 ## Check Your Code
 
@@ -75,7 +73,6 @@ Execute the below to evaluate the style of your code using `style50`.
 style50 assignment2.py
 ```
 
-{% next %}
 
 ## Submit your code
 
