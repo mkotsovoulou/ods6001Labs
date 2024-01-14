@@ -100,7 +100,6 @@ python lab7_1.py
 ```
 
 
-{% next %}
 
 ### Check Your Code
 
@@ -117,7 +116,7 @@ Execute the below to evaluate the style of your code using `style50`.
 style50 lab7_1.py
 ```
 
-{% next %}
+
 
 ## Submit your code
 
