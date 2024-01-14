@@ -10,7 +10,11 @@
 
 Write a program to prompt the user to input hours worked and rate per hour. Compute and display the amount to pay.
 
-To start the assignment type: code assignment1.py in the terminal below.
+To start the assignment type in the terminal: 
+```
+code assignment1.py
+```
+
 
 *Remember*: You should use input to read a string and float() to convert the string to a number. Do not worry about error checking or bad user data at this point.
 
