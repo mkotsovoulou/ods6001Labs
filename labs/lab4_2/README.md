@@ -5,6 +5,11 @@
 > - add keys and values to dictionaries
 > - increment values based on keys
 
+To start this lab practice type in the terminal: 
+```
+code lab4_2.py
+```
+
 In `lab4_2.py` in the text editor at top-right, write a program which will:
 
 Write a program to read through the `2021-07-08_clean-hashtags.tsv` and figure out the tag containing keywords around the coronavirus such as 'virus','coronavirus', 'vaccine', 'covid' with the most mentions. 
