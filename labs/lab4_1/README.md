@@ -19,7 +19,6 @@ In `lab4_1.py` in the text editor at top-right, write a program which will:
 
 - When the program completes, sort and print the resulting words in alphabetical order.
 
-{% next %}
 
 
 Your output should look like the following:
@@ -41,7 +40,6 @@ Check that your code produces correct results.
 For the sample datafile the outout shoud be:
 ['Arise', 'But', 'It', 'Juliet', 'Who', 'already', 'and', 'breaks', 'east', 'envious', 'fair', 'grief', 'is', 'kill', 'light', 'moon', 'pale', 'sick', 'soft', 'sun', 'the', 'through', 'what', 'window', 'with', 'yonder']
 
-{% next %}
 
 ### Check Your Code
 
@@ -58,7 +56,6 @@ Execute the below to evaluate the style of your code using `style50`.
 style50 lab4_1.py
 ```
 
-{% next %}
 
 ## Submit your code
 
