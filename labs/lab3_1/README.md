@@ -8,6 +8,11 @@
 > - perform string manipulation / iteration
 > - use conditional expressions
 
+To start this lab practice type in the terminal: 
+```
+code lab3_1.py
+```
+
 In `lab3_1.py` in the text editor at top-right, write a program which will:
 
 1. Define the avg_digits() function:
@@ -38,7 +43,6 @@ In this code, there is a function called main() that prints the phrase Hello Wor
 
 In this program write your code to accept user input in def main():
 
-
 You can use a for loop
 
 <details> 
@@ -56,7 +60,7 @@ for char in input_str:
 </details>
 
 
-Use char.isgigit() function. This function return true of the character is a digit and false other wise...
+Use char.isdigit() function. This function return true of the character is a digit and false other wise...
 
 <details> 
 <summary>
