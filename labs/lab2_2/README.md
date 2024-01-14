@@ -41,7 +41,6 @@ In this code, there is a function called main() that prints the phrase Hello Wor
 
 In this program write your code to accept user input in def main():
 
-{% next %}
 
 <details> 
 <summary>
@@ -171,7 +170,6 @@ if __name__ == '__main__':
 
 </details>
 
-{% next %}
 
 
 ## Execute your program 
@@ -214,8 +212,6 @@ Type a number to add:a
 Wrong input
 
 
-{% next %}
-
 ### Check Your Code
 
 Execute the below to evaluate the correctness of your code using `check50`, but be sure to test it yourself using:
@@ -238,7 +234,6 @@ Execute the below to evaluate the style of your code using `style50`.
 style50 lab2_2.py
 ```
 
-{% next %}
 
 ## Submit your code
 
