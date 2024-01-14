@@ -1,9 +1,14 @@
 # Python Lab 1.2: Using Build-in Functions
 
-In `lab1_2.py` in the text editor at top-right, write a few python commands to:
+To start this lab practice type in the terminal: 
+```
+code lab1_2.py
+```
+
+Create a program to:
 1. ask the user to type their name and store it in a variable
 2. display the length of the name
-3. convert the name in upper case letters
+3. convert the name in upper case letters, without printing it.
 4. display the lowest character in alphabetical order in the name
 
 <details> 
