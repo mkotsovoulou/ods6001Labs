@@ -128,7 +128,6 @@ else:
 </details>
 
 
-
 ## Execute your program 
 
 Remember in order to execute your code you type in the terminal:
@@ -141,22 +140,18 @@ Use the following test data to make sure your program produces correct resutls.
 ### TEST 1:
 
 Enter your score: 35
-
 F
 
 ### TEST 2:
 
 Enter your score: 102
-
 Invalid score
 
 ### TEST 3:
 
 Enter your score: 60
-
 D
 
-{% next %}
 
 ### Check Your Code
 
