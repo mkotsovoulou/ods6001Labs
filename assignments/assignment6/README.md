@@ -23,6 +23,10 @@ for example: 10 5 2
 
 I am using sample numbers and not the actual output
 
+To start the assignment type in the terminal: 
+```
+code assignment6.py
+```
 
 ## Execute and Test your program 
 
