@@ -23,8 +23,6 @@ The basic algorithm of the steps you have to perform is as follows:
 5. Print the sum
 
 
-{% next %}
-
 
 To open the file and read the contents into a string variable use the open(filename) function.
 Remember that the open function returns a file handler...
@@ -128,7 +126,7 @@ Check that your code produces correct results.
 
 For the sample datafile provides the sum of all xmax should be 13487.
 
-{% next %}
+
 
 ### Check Your Code
 
@@ -145,7 +143,7 @@ Execute the below to evaluate the style of your code using `style50`.
 style50 lab3_2.py
 ```
 
-{% next %}
+
 
 ## Submit your code
 
