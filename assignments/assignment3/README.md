@@ -17,6 +17,10 @@ Then, enhance your code to:
 - Display 'Wrong input' if not valid and quit.
 - Call the function to calculate the area and print the result. 
 
+To start the assignment type in the terminal: 
+```
+code assignment3.py
+```
 
 ## Some Technical Details: A Basic Python main()
 
