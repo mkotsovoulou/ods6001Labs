@@ -43,7 +43,6 @@ While reading data from the file, first load data in your data structure, either
 You are free to create your own functions for code modularity. Use comments to describe your algorithm to process the data.
 
 
-{% next %}
 
 
 ## Execute and Test your program 
@@ -84,7 +83,6 @@ Execute the below to evaluate the style of your code using `style50`.
 style50 assignment5.py
 ```
 
-{% next %}
 
 ## Submit your code
 
