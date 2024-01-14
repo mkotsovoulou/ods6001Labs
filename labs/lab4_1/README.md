@@ -7,6 +7,11 @@
 > - add data to a list
 > - search in a list
 
+To start this lab practice type in the terminal: 
+```
+code lab4_1.py
+```
+
 In `lab4_1.py` in the text editor at top-right, write a program which will:
 
 - Open the datafile.txt and read it line by line. 
