@@ -7,6 +7,11 @@
 > - search inside strings for data
 > - parse data
 
+To start this lab practice type in the terminal: 
+```
+code lab3_2.py
+```
+
 In `lab3_2.py` in the text editor at top-right, write a program which will:
 Search in a file named `datafile.txt` for all values in the `xmax` attribute, add them and display the sum.
 Open the datafile to observe the structure of the data...
