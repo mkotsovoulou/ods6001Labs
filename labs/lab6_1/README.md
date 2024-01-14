@@ -55,7 +55,7 @@ Call the method
 def print_shopping_list(my_list):
     pass
 ```
-{% next %}
+
 
 ## Execute and Test your program 
 
@@ -73,7 +73,7 @@ pineapple: 1 units
 30
 ```
 
-{% next %}
+
 
 ### To Do - 3
 
@@ -95,7 +95,7 @@ Execute the below to evaluate the style of your code using `style50`.
 style50 lab6_1.py
 ```
 
-{% next %}
+
 
 ## Submit your code
 
