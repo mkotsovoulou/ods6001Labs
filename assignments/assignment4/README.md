@@ -22,6 +22,11 @@ Create a program which will read a text file containing some text and determine 
 Remember to strip all spaces before and after your string before proceeding.
 You can replace all instances of two spaces with one space. 
 
+To start the assignment type in the terminal: 
+```
+code assignment4.py
+```
+
 ### Hint 1 : 
 use a loop to keep replacing as long as 2 consequtive spaces exist in the string.
 
