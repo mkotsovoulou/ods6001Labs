@@ -9,7 +9,7 @@ In `lab2_1.py` in the text editor at top-right, write a few python commands to:
 ![Image of ranges](ranges.png)
 
 Click next to see the flowchart of this algorithm...
-{% next %}
+
 
 ## Flowchart v1 
 This Flowchart represents the logic of this program... 
@@ -19,7 +19,7 @@ This Flowchart represents the logic of this program...
 Remember that you can reverse the checks and still have a valid program!
 So click next to see a reverse flowchart...
 
-{% next %}
+
 
 ## Reverse Flowchart
 
@@ -28,7 +28,7 @@ So click next to see a reverse flowchart...
 
 Now, click next to start coding...
 
-{% next %}
+
 
 First ask the user to type a score
 and validate the range
@@ -93,7 +93,7 @@ else:
 </details>
 
 
-{% next %}
+
 
 Keep in mind that the sample solution is not the only solution. 
 There are different ways to reach to the same result...
@@ -128,7 +128,6 @@ else:
 </details>
 
 
-{% next %}
 
 ## Execute your program 
 
@@ -180,7 +179,7 @@ Execute the below to evaluate the style of your code using `style50`.
 style50 lab2_1.py
 ```
 
-{% next %}
+
 
 ## Submit your code
 
