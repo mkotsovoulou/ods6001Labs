@@ -1,4 +1,9 @@
 # Python Lab 2.1: Conditionals 
+To start this lab practice type in the terminal: 
+```
+code lab2_1.py
+```
+
 In `lab2_1.py` in the text editor at top-right, write a few python commands to:
 
 1. Ask the user to type their score in a test and store it in a variable
