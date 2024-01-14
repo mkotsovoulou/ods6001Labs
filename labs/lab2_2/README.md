@@ -9,6 +9,11 @@
 > - validate user input
 > - handle exceptions
 
+To start this lab practice type in the terminal: 
+```
+code lab2_2.py
+```
+
 In `lab2_2.py` in the text editor at top-right, write a program which will:
 
 1. Define an add() function:
