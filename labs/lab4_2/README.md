@@ -15,7 +15,6 @@ Write a program to read through the `2021-07-08_clean-hashtags.tsv` and figure o
 
 - After the dictionary is produced, the program reads through the dictionary using a maximum loop to find the tag with the most mentions.
 
-{% next %}
 
 
 Your output should look like the following:
@@ -103,7 +102,7 @@ For the sample datafile the output should be:
 
 #covid19 34468
 
-{% next %}
+
 
 ### Check Your Code
 
@@ -120,7 +119,7 @@ Execute the below to evaluate the style of your code using `style50`.
 style50 lab4_2.py
 ```
 
-{% next %}
+
 
 ## Submit your code
 
