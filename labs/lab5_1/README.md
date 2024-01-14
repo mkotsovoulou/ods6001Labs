@@ -6,12 +6,14 @@
 > - Use collection methods to manage elements
 > - Iterate over collection elements
 
+To start this lab practice type in the terminal: 
+```
+code lab5_1.py
+```
 
 In `lab5_1.py` in the text editor at top-right, write a program which will read a file and calculate letter frequency. At the end it should print the letters with the largest frequency. Your program should convert all characters to uppercase and only count the letters A-Z, ignoring spaces or punctuation marks or numbers.
 
 You can use the text file `article1.txt` provided in the workspace as sample input, but you can upload your own text file if you want...
-
-
 
 
 ## Algorithm
