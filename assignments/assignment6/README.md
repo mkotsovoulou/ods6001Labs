@@ -23,8 +23,6 @@ for example: 10 5 2
 
 I am using sample numbers and not the actual output
 
-{% next %}
-
 
 ## Execute and Test your program 
 
@@ -54,7 +52,6 @@ Execute the below to evaluate the style of your code using `style50`.
 style50 assignment6.py
 ```
 
-{% next %}
 
 ## Submit your code
 
