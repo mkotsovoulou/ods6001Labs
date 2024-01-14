@@ -33,7 +33,6 @@
 
 ```
 python assignment7.py
-
 ```
 The sum of all balances after the interest is applied should be 2346.0
 
