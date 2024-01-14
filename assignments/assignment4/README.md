@@ -56,7 +56,6 @@ In this program write your code to accept user input in def main():
 
 ```
 python assignment4.py
-
 ```
 
 sample1.txt should return empty
