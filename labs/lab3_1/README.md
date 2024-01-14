@@ -38,7 +38,6 @@ In this code, there is a function called main() that prints the phrase Hello Wor
 
 In this program write your code to accept user input in def main():
 
-{% next %}
 
 You can use a for loop
 
@@ -105,7 +104,7 @@ Check that your code produces correct results.
 
 For the sample string provided, the average is:  6.333333333333333 and when formatted using 2 decimals, the correct output should be 6.33
 
-{% next %}
+
 
 ### Check Your Code
 
@@ -122,7 +121,7 @@ Execute the below to evaluate the style of your code using `style50`.
 style50 lab3_1.py
 ```
 
-{% next %}
+
 
 ## Submit your code
 
