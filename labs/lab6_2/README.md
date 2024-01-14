@@ -106,7 +106,6 @@ print(john_account.balance)
 </details>
 
 
-{% next %}
 
 ## Execute and Test your program 
 
@@ -138,7 +137,6 @@ Execute the below to evaluate the style of your code using `style50`.
 style50 lab6_2.py
 ```
 
-{% next %}
 
 ## Submit your code
 
