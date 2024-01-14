@@ -31,7 +31,6 @@ Enter rate per hour: 2.75
 
 If you want you can test your program with different inputs!
 
-{% next %}
 
 ## Check Your Code
 
@@ -51,7 +50,6 @@ Execute the below to evaluate the style of your code using `style50`.
 style50 problem1.py
 ```
 
-{% next %}
 
 ## Submit your code
 
