@@ -62,6 +62,10 @@ Loop through the categories and in this Loop, iterate over the products.
 
 </details>
 
+To start the assignment type in the terminal: 
+```
+code assignment8.py
+```
 
 ## Execute and Test your program 
 
