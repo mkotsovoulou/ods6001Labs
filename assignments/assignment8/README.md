@@ -91,7 +91,6 @@ Execute the below to evaluate the style of your code using `style50`.
 style50 assignment8.py
 ```
 
-{% next %}
 
 ## Submit your code
 
