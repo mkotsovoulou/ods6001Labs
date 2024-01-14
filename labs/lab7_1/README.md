@@ -35,7 +35,12 @@ In this practice we will use a csv file which contains nutritial information in 
 - rating: a rating of the cereals (Possibly from Consumer Reports?
 
 ## To Do:
-Open `lab7_1.py` and `cereal.csv` in the text editor. Have a look at the csv file and then:
+To start this lab practice type in the terminal: 
+```
+code lab7_1.py
+```
+
+Open `cereal.csv` in the text editor. Have a look at the csv file and then:
 
 1. Load this csv into a data frame for further processing. 
    Remember to import the required libraries on top of your program.
@@ -98,7 +103,6 @@ Remember in order to execute your code you type in the terminal:
 ```
 python lab7_1.py
 ```
-
 
 
 ### Check Your Code
