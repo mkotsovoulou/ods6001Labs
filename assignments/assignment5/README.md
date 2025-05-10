@@ -9,13 +9,13 @@
 
 ## Specifications
 
-Create a program which will read a text file containing Stock Market purchase information and then figure out whether the company has lost or earned money. 
+Create a program which will read a text file containing Stock Market purchase information and then figure out whether the company has lost or earned money.
 
 The structure of the file is as follows: Symbol,Date,ClosingPrice,Volume
 
 * The Volume is an integer. When the Volume contains a positive number it represents the number of stocks the company bought at Closing Price, and when is negative it represents the number of stocks the company sold, again at the closing price.
 
-* You have to remove the dollar sign '$' from the price (which is a float). 
+* You have to remove the dollar sign '$' from the price (which is a float).
 
 * Ignore the dates.
 
@@ -31,15 +31,15 @@ When the data are loaded and processed produce:
 1. The total amount of profit/loss from all stocks rounded in the nearest integer (display it in the screen)
 2. Write to a file called `results.txt` the contents of the dictionary. Display the Stock Symbol and the amount of profit or loss. You may need to think about the sign...
 
-To start the assignment type in the terminal: 
+To start the assignment type in the terminal:
 ```
 code assignment5.py
 ```
 
-### Hint 1 : 
+### Hint 1 :
 Use the appropriate data structure which can utilize the stock symbol as the key: i.e. AAPL, and the running amount amount of profit/loss as a value. Ignore the dates during your load.
 
-If for example the company bought 30 stocks of AAPP in the price of 165.12, the amount invested should be 4,953.6 and when the company sold 30 stocks of AAPP at the price of 200.34, the amount received was 6,010.2. So the total investment has a produced profit of 1,056.6. 
+If for example the company bought 30 stocks of AAPP in the price of 165.12, the amount invested should be 4,953.6 and when the company sold 30 stocks of AAPP at the price of 200.34, the amount received was 6,010.2. So the total investment has a produced profit of 1,056.6.
 
 ### Hint 2 :
 While reading data from the file, first load data in your data structure, either by adding a stock symbol which does not exist or updating the amount, to keep track of the total profit/loss.
@@ -49,7 +49,7 @@ You are free to create your own functions for code modularity. Use comments to d
 
 
 
-## Execute and Test your program 
+## Execute and Test your program
 
 *Remember*: in order to execute your code you type in the terminal:
 
@@ -71,32 +71,19 @@ MSFT,-202.99999999999818
 ## Check Your Code
 
 Execute the below to evaluate the correctness of your code using `check50`, but be sure to test it yourself before that...
-Login with your `GitHub username` and `Personal Access Token` when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token. 
+Login with your `GitHub username` and `Personal Access Token` when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token.
 
-If you do not have generated a Personal Access ToKen follow the instructions: 
+If you do not have generated a Personal Access ToKen follow the instructions:
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
 ```
 check50 mkotsovoulou/ods6001a/main/assignments/assignment5
 ```
 
-Execute the below to evaluate the style of your code using `style50`.
-
-```
-style50 assignment5.py
-```
-
-
 ## Submit your code
 
-Execute the command below, logging in with your `GitHub username` and `Personal Access Token` when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token. 
+When you are happy with your solution, download the code and upload it to Blackboard.
 
-```
-submit50 mkotsovoulou/ods6001a/main/assignments/assignment5
-```
-
-You can re-submit your solution as many times as you want.
-When you are happy with your solution, download the code and `results.txt` produced with the data from the dictionary and upload it to Canvas.
 
 ![Image of download](download.png)
 

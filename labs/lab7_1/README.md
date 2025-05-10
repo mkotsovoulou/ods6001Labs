@@ -1,6 +1,6 @@
 # Python Lab 7.1: Read Data from CSV Files and a Produce a Data Frame
 
-> The purpose of this practice is to help you apply the concepts discussed up to **now**: 
+> The purpose of this practice is to help you apply the concepts discussed up to **now**:
 >
 > - read and parse data from different file types
 > - use Pandas to create a DataFrame
@@ -35,19 +35,19 @@ In this practice we will use a csv file which contains nutritial information in 
 - rating: a rating of the cereals (Possibly from Consumer Reports?
 
 ## To Do:
-To start this lab practice type in the terminal: 
+To start this lab practice type in the terminal:
 ```
 code lab7_1.py
 ```
 
 Open `cereal.csv` in the text editor. Have a look at the csv file and then:
 
-1. Load this csv into a data frame for further processing. 
+1. Load this csv into a data frame for further processing.
    Remember to import the required libraries on top of your program.
 
 2. Print the first 5 rows from this data frame
 
-<details> 
+<details>
 <summary>
 HINT 1: Load csv to a data frame and print
 </summary>
@@ -56,12 +56,12 @@ HINT 1: Load csv to a data frame and print
 ```
 cereal_df = pd.read_csv("cereal.csv"))
 print(cereal_df.head(5))
-        
+
 ```
 </details>
 
 3. Check the data types of calories, fiber and fat
-<details> 
+<details>
 <summary>
 HINT 2: Find out datatypes
 </summary>
@@ -83,9 +83,9 @@ Rerun you code now to see the data fix.
 
 5. Create a calculated column called "low/high" to display "high fat" or "low fat" depending on a condition: less than 5% is low fat, 5% and more is high fat.Display again the first rows to verify your results.
 
-<details> 
+<details>
 <summary>
-HINT 3: Define a calculated column 
+HINT 3: Define a calculated column
 </summary>
 
 
@@ -97,7 +97,7 @@ print(cereal_df.head(5))
 ```
 </details>
 
-## Execute your program 
+## Execute your program
 
 Remember in order to execute your code you type in the terminal:
 ```
@@ -124,17 +124,7 @@ style50 lab7_1.py
 
 ## Submit your code
 
-Execute the command below, logging in with your `GitHub username` and `Personal Access Token` when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token. 
-
-If you do not have generated a Personal Access ToKen follow the instructions: 
-https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
-
-```
-submit50 mkotsovoulou/ods6001a/main/labs/lab7_1
-```
-
-You can re-submit your solution as many times as you want.
-When you are happy with your solution, download the code and upload it to Canvas.
+When you are happy with your solution, download the code and upload it to Blackboard.
 
 ![Image of download](download.png)
 

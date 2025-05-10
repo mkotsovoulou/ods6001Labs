@@ -1,5 +1,5 @@
-# Python Lab 2.1: Conditionals 
-To start this lab practice type in the terminal: 
+# Python Lab 2.1: Conditionals
+To start this lab practice type in the terminal:
 ```
 code lab2_1.py
 ```
@@ -16,8 +16,8 @@ In `lab2_1.py` in the text editor at top-right, write a few python commands to:
 Click next to see the flowchart of this algorithm...
 
 
-## Flowchart v1 
-This Flowchart represents the logic of this program... 
+## Flowchart v1
+This Flowchart represents the logic of this program...
 [![Flowchart](https://mermaid.ink/img/pako:eNpd0l1vgjAUBuC_0pzdzEQTdrMPZkzkSwiiF3ql5aKBMkmAulK2LMT_vgLaULiBc_r2OSVpCwlLKZiQFew3uRAu0NHBFZLP-vlcC9mIZ2ixWCHrjMGtBOXokDBOMcRDzJKr6Mgb2qfsFkPdraMlMhDjqC9WL4aB4TZssLUNrmSfvhsmPoPqhxR5OvBDSw1x--xpBHikqAfBax8DXw10n-FpMzZqhjdxN2PX011fuW_K9TU3UK4zcYOx6-tuqNx35Yaau1WuPXG3YzfU3Ui5H8qNNHenXGviRjq1V8H1JLgbH2A_Lk7ddWHXeNaXuOpeMIeS8pLkqbxhbdfBIC60lLfHlJ8pzUhTCAy4usloc02JoG6aC8bBzLrTzIE0gh3-qgRMIX_jEXJy8sVJeU_d_gExhcnT)](https://mermaid.live/edit#pako:eNpd0l1vgjAUBuC_0pzdzEQTdrMPZkzkSwiiF3ql5aKBMkmAulK2LMT_vgLaULiBc_r2OSVpCwlLKZiQFew3uRAu0NHBFZLP-vlcC9mIZ2ixWCHrjMGtBOXokDBOMcRDzJKr6Mgb2qfsFkPdraMlMhDjqC9WL4aB4TZssLUNrmSfvhsmPoPqhxR5OvBDSw1x--xpBHikqAfBax8DXw10n-FpMzZqhjdxN2PX011fuW_K9TU3UK4zcYOx6-tuqNx35Yaau1WuPXG3YzfU3Ui5H8qNNHenXGviRjq1V8H1JLgbH2A_Lk7ddWHXeNaXuOpeMIeS8pLkqbxhbdfBIC60lLfHlJ8pzUhTCAy4usloc02JoG6aC8bBzLrTzIE0gh3-qgRMIX_jEXJy8sVJeU_d_gExhcnT)
 
 
@@ -38,9 +38,9 @@ Now, click next to start coding...
 First ask the user to type a score
 and validate the range
 
-<details> 
+<details>
 <summary>
-Hint 1 : Validate range  
+Hint 1 : Validate range
 </summary>
 
 
@@ -50,14 +50,14 @@ if score < 0 or score > 100 :
 ```
 </details>
 
-What is the user types a letter instead of a number? 
+What is the user types a letter instead of a number?
 
-<details> 
+<details>
 <summary>
-Hint 2 : Invalid Input  
+Hint 2 : Invalid Input
 </summary>
 
-use a try/except block after reading the score 
+use a try/except block after reading the score
 which will include the conversion to a floating point number...
 and exit the program if the input is invalid.
 
@@ -73,16 +73,16 @@ except:
 
 Now complete the if statement...
 
-<details> 
+<details>
 <summary>
-Hint 3 : Finding the letter grade 
+Hint 3 : Finding the letter grade
 </summary>
 
 
 ```
 if score < 0 or score > 100:
     print('Invalid score')
-elif score < 60: 
+elif score < 60:
     print('F')
 elif score < 70:
     print('D')
@@ -100,11 +100,11 @@ else:
 
 
 
-Keep in mind that the sample solution is not the only solution. 
+Keep in mind that the sample solution is not the only solution.
 There are different ways to reach to the same result...
 
 
-<details> 
+<details>
 <summary>
 Solution : Putting it all together...
 </summary>
@@ -118,7 +118,7 @@ except:
 
 if score < 0 or score > 100:
     print('Invalid score')
-elif score < 60: 
+elif score < 60:
     print('F')
 elif score < 70:
     print('D')
@@ -133,7 +133,7 @@ else:
 </details>
 
 
-## Execute your program 
+## Execute your program
 
 Remember in order to execute your code you type in the terminal:
 ```
@@ -173,27 +173,9 @@ Execute the below to evaluate the correctness of your code using `check50`, but 
 check50 mkotsovoulou/ods6001a/main/labs/lab2_1
 ```
 
-Execute the below to evaluate the style of your code using `style50`.
-
-```
-style50 lab2_1.py
-```
-
-
-
 ## Submit your code
 
-Execute the command below, logging in with your `GitHub username` and `Personal Access Token` when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token. 
-
-If you do not have generated a Personal Access ToKen follow the instructions: 
-https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
-
-```
-submit50 mkotsovoulou/ods6001a/main/labs/lab2_1
-```
-
-You can re-submit your solution as many times as you want.
-When you are happy with your solution, download the code and upload it to Canvas.
+When you are happy with your solution, download the code and upload it to Blackboard.
 
 ![Image of download](download.png)
 

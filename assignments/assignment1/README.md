@@ -10,7 +10,7 @@
 
 Write a program to prompt the user to input hours worked and rate per hour. Compute and display the amount to pay.
 
-To start the assignment type in the terminal: 
+To start the assignment type in the terminal:
 ```
 code assignment1.py
 ```
@@ -48,23 +48,9 @@ https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/c
 check50 mkotsovoulou/ods6001a/main/assignments/assignment1
 ```
 
-Execute the below to evaluate the style of your code using `style50`.
-
-```
-style50 problem1.py
-```
-
-
 ## Submit your code
 
-Execute the command below, logging in with your `GitHub username` and `Personal Access Token` when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token.
-
-```
-submit50 mkotsovoulou/ods6001a/main/assignments/assignment1
-```
-
-You can re-submit your solution as many times as you want.
-When you are happy with your solution, download the code and upload it to Canvas.
+When you are happy with your solution, download the code and upload it to Blackbaord.
 
 ![Image of download](download.png)
 

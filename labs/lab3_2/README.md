@@ -1,13 +1,13 @@
 # Python Lab 3.2: Reading and Extracting Information from Files
 
-> The purpose of this practice is to help you apply the concepts discussed up to **now**: 
+> The purpose of this practice is to help you apply the concepts discussed up to **now**:
 >
 > - open a file
 > - read the contents of the file
 > - search inside strings for data
 > - parse data
 
-To start this lab practice type in the terminal: 
+To start this lab practice type in the terminal:
 ```
 code lab3_2.py
 ```
@@ -23,7 +23,7 @@ The basic algorithm of the steps you have to perform is as follows:
 3. Split the file into 'lines' for processing
 4. Loop through each line to search for `xmax`
     -   if the line contains `xmax`
-        - extract the number 
+        - extract the number
         - add the number to the sum
 5. Print the sum
 
@@ -33,7 +33,7 @@ To open the file and read the contents into a string variable use the open(filen
 Remember that the open function returns a file handler...
 which you use to read()
 
-<details> 
+<details>
 <summary>
 Hint 1 : Open and Read
 </summary>
@@ -47,11 +47,11 @@ data = fileh.read()
 Of course you can also use readlines() instead of read() which will read and split at the same time...
 but in this example, we will split the string in the next step...
 
-</details> 
+</details>
 
 use the method splitlines() on the data and assign it to a lines collection
 
-<details> 
+<details>
 <summary>
 Hint 2 : Split data into lines
 </summary>
@@ -61,11 +61,11 @@ Hint 2 : Split data into lines
 lines = data.splitlines()
 ```
 
-</details> 
+</details>
 
 The next step is to write a loop to find the lines with `xmax` and print them
 
-<details> 
+<details>
 <summary>
 Hint 3 : Loop, Search and print
 </summary>
@@ -79,7 +79,7 @@ Hint 3 : Loop, Search and print
 At this point you can run your code and see the output...
 
 
-</details> 
+</details>
 
 Your output should look like the following:
 ```
@@ -96,7 +96,7 @@ then think how you can find the position of the comma, and store it in a variabl
 Finally use the slice [ ] method to extract the number, but strip also the white spaces.
 Before adding the extracted number to the sum, convert it to an integer.
 
-<details> 
+<details>
 <summary>
 Solution
 </summary>
@@ -119,7 +119,7 @@ print(sum)
 </details>
 
 
-## Execute your program 
+## Execute your program
 
 Remember in order to execute your code you type in the terminal:
 
@@ -127,7 +127,7 @@ Remember in order to execute your code you type in the terminal:
 python lab3_2.py
 ```
 
-Check that your code produces correct results. 
+Check that your code produces correct results.
 
 For the sample datafile provides the sum of all xmax should be 13487.
 
@@ -142,27 +142,10 @@ Execute the below to evaluate the correctness of your code using `check50`, but 
 check50 mkotsovoulou/ods6001a/main/labs/lab3_2
 ```
 
-Execute the below to evaluate the style of your code using `style50`.
-
-```
-style50 lab3_2.py
-```
-
-
 
 ## Submit your code
 
-Execute the command below, logging in with your `GitHub username` and `Personal Access Token` when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token. 
-
-If you do not have generated a Personal Access ToKen follow the instructions: 
-https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
-
-```
-submit50 mkotsovoulou/ods6001a/main/labs/lab3_2
-```
-
-You can re-submit your solution as many times as you want.
-When you are happy with your solution, download the code and upload it to Canvas.
+When you are happy with your solution, download the code and upload it to Blackboard.
 
 ![Image of download](download.png)
 

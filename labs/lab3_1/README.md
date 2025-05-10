@@ -1,6 +1,6 @@
 # Python Lab 3.1: String manipulation - Functions - Loops
 
-> The purpose of this practice is to help you apply the concepts discussed up to **week 3**: 
+> The purpose of this practice is to help you apply the concepts discussed up to **week 3**:
 >
 > - obtain user input
 > - define functions that accept parameters and return values
@@ -8,7 +8,7 @@
 > - perform string manipulation / iteration
 > - use conditional expressions
 
-To start this lab practice type in the terminal: 
+To start this lab practice type in the terminal:
 ```
 code lab3_1.py
 ```
@@ -45,7 +45,7 @@ In this program write your code to accept user input in def main():
 
 You can use a for loop
 
-<details> 
+<details>
 <summary>
 Hint 1 : Iterate through every character in a string
 </summary>
@@ -62,7 +62,7 @@ for char in input_str:
 
 Use char.isdigit() function. This function return true of the character is a digit and false other wise...
 
-<details> 
+<details>
 <summary>
 Hint 2 : Check if the character is a digit
 </summary>
@@ -73,9 +73,9 @@ def avg_digits(input_str):
     countdigits=0
     # repeat the steps below for each character in the string
     for char in input_str:
-        # is the character a digit? 
+        # is the character a digit?
         if char.isdigit():
-             # increment the countdigits  
+             # increment the countdigits
              # add the number to the sum
 
     #return the average (sum/countdigita)
@@ -84,9 +84,9 @@ def avg_digits(input_str):
 
 Use print(f" ") to format your output
 
-<details> 
+<details>
 <summary>
-Hint 3 : how to print only two decimals 
+Hint 3 : how to print only two decimals
 </summary>
 
 ```
@@ -97,14 +97,14 @@ Hint 3 : how to print only two decimals
 </details>
 
 
-## Execute your program 
+## Execute your program
 
 Remember in order to execute your code you type in the terminal:
 ```
 python lab3_1.py
 ```
 
-Check that your code produces correct results. 
+Check that your code produces correct results.
 
 For the sample string provided, the average is:  6.333333333333333 and when formatted using 2 decimals, the correct output should be 6.33
 
@@ -114,32 +114,13 @@ For the sample string provided, the average is:  6.333333333333333 and when form
 
 Execute the below to evaluate the correctness of your code using `check50`, but be sure to test it yourself also.
 
-
 ```
 check50 mkotsovoulou/ods6001a/main/labs/lab3_1
 ```
 
-Execute the below to evaluate the style of your code using `style50`.
-
-```
-style50 lab3_1.py
-```
-
-
-
 ## Submit your code
 
-Execute the command below, logging in with your `GitHub username` and `Personal Access Token` when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token. 
-
-If you do not have generated a Personal Access ToKen follow the instructions: 
-https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
-
-```
-submit50 mkotsovoulou/ods6001a/main/labs/lab3_1
-```
-
-You can re-submit your solution as many times as you want.
-When you are happy with your solution, download the code and upload it to Canvas.
+When you are happy with your solution, download the code and upload it to Blackboard.
 
 ![Image of download](download.png)
 

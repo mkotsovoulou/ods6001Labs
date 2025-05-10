@@ -1,4 +1,4 @@
-# Programming Problem 3: Functions 
+# Programming Problem 3: Functions
 
 > The purpose of this assignment is to test your understanding and application of the concepts discussed in **Week 2**:
 >
@@ -8,16 +8,16 @@
 
 ## Specifications
 
-Change the code in `assignment3.py` so that **areaTriangle** takes parameters for the **base** and **height** of a triangle and computes its area. 
+Change the code in `assignment3.py` so that **areaTriangle** takes parameters for the **base** and **height** of a triangle and computes its area.
 The formula provided is correct (base*height)/2
 
 Then, enhance your code to:
 - Ask the user to provide input from base and height.
 - Validate user input to be positive integer numbers.
 - Display 'Wrong input' if not valid and quit.
-- Call the function to calculate the area and print the result. 
+- Call the function to calculate the area and print the result.
 
-To start the assignment type in the terminal: 
+To start the assignment type in the terminal:
 ```
 code assignment3.py
 ```
@@ -37,7 +37,7 @@ In this code, there is a function called main() that prints the phrase Hello Wor
 In this program write your code to accept user input in def main():
 
 
-## Execute and Test your program 
+## Execute and Test your program
 
 *Remember*: in order to execute your code you type in the terminal:
 
@@ -51,32 +51,18 @@ Test your function with base = 12 and height = 45 the function should return 270
 ## Check Your Code
 
 Execute the below to evaluate the correctness of your code using `check50`, but be sure to test it yourself before that...
-Login with your `GitHub username` and `Personal Access Token` when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token. 
+Login with your `GitHub username` and `Personal Access Token` when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token.
 
-If you do not have generated a Personal Access ToKen follow the instructions: 
+If you do not have generated a Personal Access ToKen follow the instructions:
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
 ```
 check50 mkotsovoulou/ods6001a/main/assignments/assignment3
 ```
 
-Execute the below to evaluate the style of your code using `style50`.
-
-```
-style50 assignment3.py
-```
-
-
 ## Submit your code
 
-Execute the command below, logging in with your `GitHub username` and `Personal Access Token` when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token. 
-
-```
-submit50 mkotsovoulou/ods6001a/main/assignments/assignment3
-```
-
-You can re-submit your solution as many times as you want.
-When you are happy with your solution, download the code and upload it to Canvas.
+When you are happy with your solution, download the code and upload it to Blackboard.
 
 ![Image of download](download.png)
 

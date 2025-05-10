@@ -1,12 +1,12 @@
 # Python Lab 5.1: Python Collections
 
-> The purpose of this practice is to help you apply the concepts discussed up to **now**: 
+> The purpose of this practice is to help you apply the concepts discussed up to **now**:
 >
 > - Choose a approprate data collection to solve a given problem
 > - Use collection methods to manage elements
 > - Iterate over collection elements
 
-To start this lab practice type in the terminal: 
+To start this lab practice type in the terminal:
 ```
 code lab5_1.py
 ```
@@ -25,7 +25,7 @@ Since we have to count stuff... a dictionary would seem appropriate...
 
 * Step 2: convert it to uppercase
 
-<details> 
+<details>
 <summary>
 HINT 1: Read File and Convert Text to Uppercase
 </summary>
@@ -47,9 +47,9 @@ text = text.upper()
     - If no, proceed to the next character
 
 
-<details> 
+<details>
 <summary>
-HINT 2: loop, search and count 
+HINT 2: loop, search and count
 </summary>
 
 
@@ -71,7 +71,7 @@ print(letter_frequency) # to test the outcome of this operation
 
 * Step 7: Sort the list in reverse order, with the hightest frequency appearing first
 
-<details> 
+<details>
 <summary>
 HINT 3: Reverse the dictionary keys-values
 </summary>
@@ -92,7 +92,7 @@ lst.sort(reverse=True)
 
 
 
-## Execute your program 
+## Execute your program
 
 Remove any other output we used for testing appart from the final output.
 
@@ -104,7 +104,7 @@ Remember in order to execute your code you type in the terminal:
 python lab5_1.py
 ```
 
-Check that your code produces correct results. 
+Check that your code produces correct results.
 
 
 
@@ -126,17 +126,7 @@ style50 lab5_1.py
 
 ## Submit your code
 
-Execute the command below, logging in with your `GitHub username` and `Personal Access Token` when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token. 
-
-If you do not have generated a Personal Access ToKen follow the instructions: 
-https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
-
-```
-submit50 mkotsovoulou/ods6001a/main/labs/lab5_1
-```
-
-You can re-submit your solution as many times as you want.
-When you are happy with your solution, download the code and upload it to Canvas.
+When you are happy with your solution, download the code and upload it to Blackboard.
 
 ![Image of download](download.png)
 

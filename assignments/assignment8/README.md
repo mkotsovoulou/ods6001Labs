@@ -6,14 +6,14 @@
 > - Retrieve a JSON Object
 > - Load JSON into a Dictionary
 > - Parse Data
-> - Use Pandas Data Frames 
+> - Use Pandas Data Frames
 
 ## Specifications
 A company has created a webservice to expose its products, their prices and the number of items they have in stock. The API documentation of the webservice, can be found at: https://dummyjson.com/docs/products
 
 Create a program to download the json products and categories data sets from the following web services:
 - https://dummyjson.com/products
-- https://dummyjson.com/products/categories 
+- https://dummyjson.com/products/categories
 
 Use the data retrieved to:
 
@@ -24,7 +24,7 @@ Use the data retrieved to:
 3. Produce a formatted output, like the following, in a text file called 'stats.txt':
 ```
 CATEGORY           MOST EXPENSIVE PRODUCT           PRICE   CAT STOCK
-----------------   -------------------------------  -----   --------- 
+----------------   -------------------------------  -----   ---------
 smartphones        Samsung Universe 9                1249         319
 laptops            MacBook Pro                       1749         386
 fragrances         Non-Alcoholic Concentrated P       120         397
@@ -41,7 +41,7 @@ Display only those categories where a product exists!
 6. Extra Challenge: import matplotlib.pyplot and create a bar chart of the product category max prices.
 
 
-<details> 
+<details>
 <summary>
 Hint 1 : Nested Loops
 </summary>
@@ -62,12 +62,12 @@ Loop through the categories and in this Loop, iterate over the products.
 
 </details>
 
-To start the assignment type in the terminal: 
+To start the assignment type in the terminal:
 ```
 code assignment8.py
 ```
 
-## Execute and Test your program 
+## Execute and Test your program
 
 *Remember*: in order to execute your code you type in the terminal:
 
@@ -78,33 +78,14 @@ python assignment8.py
 
 ## Check Your Code
 
-Execute the below to evaluate the correctness of your code using `check50`, but be sure to test it yourself before that...
-Login with your `GitHub username` and `Personal Access Token` when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token. 
-
-If you do not have generated a Personal Access ToKen follow the instructions: 
-https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
-
 ```
 check50 mkotsovoulou/ods6001a/main/assignments/assignment8
-```
-
-Execute the below to evaluate the style of your code using `style50`.
-
-```
-style50 assignment8.py
 ```
 
 
 ## Submit your code
 
-Execute the command below, logging in with your `GitHub username` and `Personal Access Token` when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token. 
-
-```
-submit50 mkotsovoulou/ods6001a/main/assignments/assignment8
-```
-
-You can re-submit your solution as many times as you want.
-When you are happy with your solution, download the code and the stats.txt and upload it to Canvas.
+When you are happy with your solution, download the code and the stats.txt and upload it to Blackboard.
 
 ![Image of download](download.png)
 
