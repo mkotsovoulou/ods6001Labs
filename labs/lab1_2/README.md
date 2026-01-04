@@ -1,6 +1,6 @@
 # Python Lab 1.2: Using Build-in Functions
 
-To start this lab practice type in the terminal: 
+To start this lab practice type in the terminal:
 ```
 code lab1_2.py
 ```
@@ -11,9 +11,9 @@ Create a program to:
 3. convert the name in upper case letters, without printing it.
 4. display the lowest character in alphabetical order in the name
 
-<details> 
+<details>
 <summary>
-Hint 1: 
+Hint 1:
 </summary>
 
 ```
@@ -27,21 +27,21 @@ Keep in mind that the sample solution is not the only solution. There are differ
 
 And here is the Solution...
 
-<details> 
+<details>
 <summary>
-Sample Solution: 
+Sample Solution:
 </summary>
-  
+
 ```
 name = input("What is your name?")
 print(len(name))
 name = name.upper()
 print(min(name))
 ```
-  
+
 </details>
 
-### Execute your program 
+### Execute your program
 
 Remember in order to execute your code, you type in the terminal:
 
@@ -56,30 +56,10 @@ Make sure that the output is correct. For `John` it should display `4`, and the 
 
 Execute the below to evaluate the correctness of your code using `check50`, but be sure to test it yourself before that...
 
-```
-check50 mkotsovoulou/ods6001a/main/labs/lab1_2
-```
-
-Execute the below to evaluate the style of your code using `style50`.
-
-```
-style50 lab1_2.py
-```
-
 
 ## Submit your code
 
-Execute the command below, logging in with your `GitHub username` and `Personal Access Token` when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token. 
-
-If you do not have generated a Personal Access ToKen follow the instructions: 
-https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
-
-```
-submit50 mkotsovoulou/ods6001a/main/labs/lab1_2
-```
-
-You can re-submit your solution as many times as you want.
-When you are happy with your solution, download the code and upload it to Canvas.
+When you are happy with your solution, download the code and upload it to Blackboard.
 
 
 # Done!

@@ -1,10 +1,10 @@
 # Python Lab 6.1: OOP
-> The purpose of this practice is to help you apply the concepts discussed up to **now**: 
+> The purpose of this practice is to help you apply the concepts discussed up to **now**:
 >
 > - implement object classes and develop program to use them
 > - test, debug and predict program behaviour
 
-To start this lab practice type in the terminal: 
+To start this lab practice type in the terminal:
 ```
 code lab6_1.py
 ```
@@ -26,9 +26,9 @@ if __name__ == "__main__":
 ```
 ### To Do - 1
 
-In the main program (not in the class) complete the code of a function named `total_units(my_list: ShoppingList)`, which takes a ShoppingList type object as its argument. 
+In the main program (not in the class) complete the code of a function named `total_units(my_list: ShoppingList)`, which takes a ShoppingList type object as its argument.
 
-The function should calculate the total number of units in the Shopping List, and return this value. 
+The function should calculate the total number of units in the Shopping List, and return this value.
 
 The final print statement can be used to test the functionality of your method.
 
@@ -36,7 +36,7 @@ The final print statement can be used to test the functionality of your method.
 print(total_units(my_list))
 
 ```
-<details> 
+<details>
 <summary>
 HINT 1: how to solve the function to calculate the total units
 </summary>
@@ -53,8 +53,8 @@ def total_units(my_list):
 
 ### To Do - 2
 
-Move the code which prints all the items and their quantities of the shopping list in the print_shopping_list method. Remove the pass statement! 
-Call the method 
+Move the code which prints all the items and their quantities of the shopping list in the print_shopping_list method. Remove the pass statement!
+Call the method
 
 ```
 def print_shopping_list(my_list):
@@ -62,14 +62,14 @@ def print_shopping_list(my_list):
 ```
 
 
-## Execute and Test your program 
+## Execute and Test your program
 
 Remember in order to execute your code you type in the terminal:
 ```
 python lab6_1.py
 ```
 
-Check that your code produces correct results (30 total units). 
+Check that your code produces correct results (30 total units).
 
 ```
 bananas: 22 units
@@ -104,17 +104,7 @@ style50 lab6_1.py
 
 ## Submit your code
 
-Execute the command below, logging in with your `GitHub username` and `Personal Access Token` when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token. 
-
-If you do not have generated a Personal Access ToKen follow the instructions: 
-https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
-
-```
-submit50 mkotsovoulou/ods6001a/main/labs/lab6_1
-```
-
-You can re-submit your solution as many times as you want.
-When you are happy with your solution, download the code and upload it to Canvas.
+When you are happy with your solution, download the code and upload it to Blackboard.
 
 ![Image of download](download.png)
 

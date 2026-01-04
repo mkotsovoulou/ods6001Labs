@@ -1,10 +1,10 @@
 # Python Lab 6.2: OOP
-> The purpose of this practice is to help you apply the concepts discussed up to **now**: 
+> The purpose of this practice is to help you apply the concepts discussed up to **now**:
 >
 > - implement object classes and develop program to use them
 > - test, debug and predict program behaviour
 
-To start this lab practice type in the terminal: 
+To start this lab practice type in the terminal:
 ```
 code lab6_2.py
 ```
@@ -20,7 +20,7 @@ In `lab6_2.py` in the text editor at top-right, The exercise template contains a
 
 1. Run the code, find and fix the logical error.
 
-<details> 
+<details>
 <summary>
 HINT 1: The Error
 </summary>
@@ -31,25 +31,25 @@ HINT 1: The Error
 
 1. The Deposit method should accept an amount and increment the account balance by that amount
 
-<details> 
+<details>
 <summary>
-HINT 2: The Deposit Method 
+HINT 2: The Deposit Method
 </summary>
 
 
 ```
 def deposit(self, amount):
         self.balance = self.balance + ______  # Which variable should be added?
-        
+
 ```
 
 </details>
 
 1. The Withdraw method should accept an amount and decrement the account balance by that amount. If the balance is not enough the withdrawal is considered as successful and the method should return true, else it should return false.
 
-<details> 
+<details>
 <summary>
-HINT 3: The WithDraw Method 
+HINT 3: The WithDraw Method
 </summary>
 
 
@@ -57,19 +57,19 @@ HINT 3: The WithDraw Method
  def withdraw(self, amount: float):
         if amount <= self.balance:
             self.balance -= amount
-            return _____ # what value should be returned? 
+            return _____ # what value should be returned?
 
-        return _____ # what value should be returned?       
+        return _____ # what value should be returned?
 ```
 
 </details>
 
-1. the __str__ method should return a formatted output like the following: 
+1. the __str__ method should return a formatted output like the following:
 ```
 BankAccount Owner: Nik, Balance: 1000.0
 ```
 
-<details> 
+<details>
 <summary>
 HINT 4: The str Method
 </summary>
@@ -77,8 +77,8 @@ HINT 4: The str Method
 
 ```
   def __str__(self) :
-        return f"BankAccount Owner: {self.owner}, Balance: {self.balance}" 
-        
+        return f"BankAccount Owner: {self.owner}, Balance: {self.balance}"
+
 ```
 </details>
 
@@ -93,9 +93,9 @@ HINT 4: The str Method
 5. Print the Bank Account balance
 
 
-<details> 
+<details>
 <summary>
-HINT 5: Main Program 
+HINT 5: Main Program
 </summary>
 
 
@@ -112,7 +112,7 @@ print(john_account.balance)
 
 
 
-## Execute and Test your program 
+## Execute and Test your program
 
 Remember in order to execute your code you type in the terminal:
 ```
@@ -120,7 +120,7 @@ python lab6_2.py
 ```
 
 
-Check that your code produces correct results, that is a balance of 850.0 
+Check that your code produces correct results, that is a balance of 850.0
 
 ```
 850.0
@@ -145,17 +145,7 @@ style50 lab6_2.py
 
 ## Submit your code
 
-Execute the command below, logging in with your `GitHub username` and `Personal Access Token` when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token. 
-
-If you do not have generated a Personal Access ToKen follow the instructions: 
-https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
-
-```
-submit50 mkotsovoulou/ods6001a/main/labs/lab6_2
-```
-
-You can re-submit your solution as many times as you want.
-When you are happy with your solution, download the code and upload it to Canvas.
+When you are happy with your solution, download the code and upload it to Blackboard.
 
 ![Image of download](download.png)
 

@@ -1,6 +1,6 @@
 # Python Lab 2.2: Functions - Repetition - Validation
 
-> The purpose of this practice is to help you apply the concepts discussed up to **week 2**: 
+> The purpose of this practice is to help you apply the concepts discussed up to **week 2**:
 >
 > - obtain user input
 > - define functions that accept parameters and return values
@@ -9,7 +9,7 @@
 > - validate user input
 > - handle exceptions
 
-To start this lab practice type in the terminal: 
+To start this lab practice type in the terminal:
 ```
 code lab2_2.py
 ```
@@ -47,9 +47,9 @@ In this code, there is a function called main() that prints the phrase Hello Wor
 In this program write your code to accept user input in def main():
 
 
-<details> 
+<details>
 <summary>
-Hint 1: Modify the Function to accept a parameter `x` 
+Hint 1: Modify the Function to accept a parameter `x`
 </summary>
 
 ```
@@ -57,21 +57,21 @@ def add(x):
     total = 0
     count = 0
     # repeat the steps below "x" times:
-        # ask the user for a number 
+        # ask the user for a number
         # validate that the user types a number - if not display 'Wrong input' and quit
         # add the number to the total
         # increment the count variable
 
     return total
 ```
-</details> 
+</details>
 
-<details> 
+<details>
 <summary>
 Hint 2 : Validate user input
 </summary>
 
-use a try/except block after reading the score 
+use a try/except block after reading the score
 which will include the conversion to a floating point number...
 and exit the program if the input is invalid.
 
@@ -89,7 +89,7 @@ except:
 
 You can solve this problem using a while loop with a count variable!
 
-<details> 
+<details>
 <summary>
 Hint 3a : repeat the code x times - using a while loop
 </summary>
@@ -120,7 +120,7 @@ def add(x):
 You can solve this problem using a for loop with a range!
 
 
-<details> 
+<details>
 <summary>
 Hint 3b : repeat the code x times - using a for loop
 </summary>
@@ -147,7 +147,7 @@ def add(x):
 
 </details>
 
-<details> 
+<details>
 <summary>
 Solution: Main program - Call the add function with validated user input...
 </summary>
@@ -177,7 +177,7 @@ if __name__ == '__main__':
 
 
 
-## Execute your program 
+## Execute your program
 
 Remember in order to execute your code you type in the terminal:
 
@@ -223,8 +223,8 @@ Execute the below to evaluate the correctness of your code using `check50`, but 
 
 - [x] 0 as numbers to add
 - [x] -2 as numbers to add
-- [x] 3 as how many numbers to add, and 5,5,5 as data 
-- [x] a as numbers to add 
+- [x] 3 as how many numbers to add, and 5,5,5 as data
+- [x] a as numbers to add
 - [x] 2 as numbers to add, and a as data
 :tada:
 
@@ -233,26 +233,11 @@ Execute the below to evaluate the correctness of your code using `check50`, but 
 check50 mkotsovoulou/ods6001a/main/labs/lab2_2
 ```
 
-Execute the below to evaluate the style of your code using `style50`.
-
-```
-style50 lab2_2.py
-```
 
 
 ## Submit your code
 
-Execute the command below, logging in with your `GitHub username` and `Personal Access Token` when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token. 
-
-If you do not have generated a Personal Access ToKen follow the instructions: 
-https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
-
-```
-submit50 mkotsovoulou/ods6001a/main/labs/lab2_2
-```
-
-You can re-submit your solution as many times as you want.
-When you are happy with your solution, download the code and upload it to Canvas.
+When you are happy with your solution, download the code and upload it to Blackboard.
 
 ![Image of download](download.png)
 

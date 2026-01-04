@@ -2,7 +2,7 @@
 
 Recall that Python supports multiple "data types" among them strings, floats and integers. It is important to note that the data type of a variable matters!
 
-To start this lab practice type in the terminal: 
+To start this lab practice type in the terminal:
 ```
 code lab1_1.py
 ```
@@ -15,8 +15,8 @@ At first glance, the program looks like it
 
 But let's look more closely.
 
-Execute your program by typing: `python lab1_1.py` in the terminal window at bottom-right, followed by Enter. 
-- When prompted for `x`, input `1`, followed by Enter. 
+Execute your program by typing: `python lab1_1.py` in the terminal window at bottom-right, followed by Enter.
+- When prompted for `x`, input `1`, followed by Enter.
 - When prompted for `y`, again input `1`, followed by Enter.
 
 How curious!
@@ -28,9 +28,9 @@ Contrary to what this program thinks, 1 plus 1 does not equal 11! The sum should
 
 Modify `lab1_1.py` in the text editor at top-right in such a way that the program correctly outputs the sum of `x` and `y`.
 
-<details> 
+<details>
 <summary>
-Hint 1: 
+Hint 1:
 </summary>
 
 ```
@@ -41,9 +41,9 @@ Try to convert your x and y inputs into a numeric data type.
 
 If you need extra help ...
 
-<details> 
+<details>
 <summary>
-Hint 2: 
+Hint 2:
 </summary>
 
   Consider using the float function, so your program can add floating point numbers as well as integers!
@@ -52,9 +52,9 @@ Hint 2:
 
 If you want extra help... here is the solution:
 
-<details> 
+<details>
 <summary>
-SOLUTION:  
+SOLUTION:
 </summary>
 
  ```
@@ -62,7 +62,7 @@ SOLUTION:
  ```
 </details>
 
-### Execute your program 
+### Execute your program
 
 Provide the value 1 for x, and 1 for y
 
@@ -88,23 +88,10 @@ Execute the command below to evaluate the style of your code using `style50`.
 style50 lab1_1.py
 ```
 
-
 ## Submit your code
-
-Execute the command below, logging in with your `GitHub username` and `Personal Access Token` when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token. 
-
-If you do not have generated a Personal Access ToKen follow the instructions: 
-https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
-
-```
-submit50 mkotsovoulou/ods6001a/main/labs/lab1_1
-```
-
-You can re-submit your solution as many times as you want.
-When you are happy with your solution, download the code and upload it to Canvas.
+Download the py code and upload it to Blackboard.
 
 ![Image of download](download.png)
-
 
 # Done!
 :tada:

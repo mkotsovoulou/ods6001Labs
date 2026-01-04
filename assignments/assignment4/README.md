@@ -1,4 +1,4 @@
-# Programming Problem 4: File Manipulation and String Functions 
+# Programming Problem 4: File Manipulation and String Functions
 
 > The purpose of this assignment is to test your understanding and application of the concepts discussed up to **Week 3**:
 >
@@ -20,14 +20,14 @@ Create a program which will read a text file containing some text and determine 
 - display 'File not found' if the user types an invalid filename
 
 Remember to strip all spaces before and after your string before proceeding.
-You can replace all instances of two spaces with one space. 
+You can replace all instances of two spaces with one space.
 
-To start the assignment type in the terminal: 
+To start the assignment type in the terminal:
 ```
 code assignment4.py
 ```
 
-### Hint 1 : 
+### Hint 1 :
 use a loop to keep replacing as long as 2 consequtive spaces exist in the string.
 
 ### Hint 2 :
@@ -55,7 +55,7 @@ In this code, there is a function called main() that prints the phrase Hello Wor
 In this program write your code to accept user input in def main():
 
 
-## Execute and Test your program 
+## Execute and Test your program
 
 *Remember*: in order to execute your code you type in the terminal:
 
@@ -80,32 +80,18 @@ sample6.txt should return document
 ## Check Your Code
 
 Execute the below to evaluate the correctness of your code using `check50`, but be sure to test it yourself before that...
-Login with your `GitHub username` and `Personal Access Token` when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token. 
+Login with your `GitHub username` and `Personal Access Token` when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token.
 
-If you do not have generated a Personal Access ToKen follow the instructions: 
+If you do not have generated a Personal Access ToKen follow the instructions:
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 
 ```
 check50 mkotsovoulou/ods6001a/main/assignments/assignment4
 ```
 
-Execute the below to evaluate the style of your code using `style50`.
-
-```
-style50 assignment4.py
-```
-
-
 ## Submit your code
 
-Execute the command below, logging in with your `GitHub username` and `Personal Access Token` when prompted. For security, you'll see asterisks (`*`) instead of the actual characters in your token. 
-
-```
-submit50 mkotsovoulou/ods6001a/main/assignments/assignment4
-```
-
-You can re-submit your solution as many times as you want.
-When you are happy with your solution, download the code and upload it to Canvas.
+When you are happy with your solution, download the code and upload it to Blackboard.
 
 ![Image of download](download.png)
 
