@@ -1,5 +1,4 @@
 # Programming Problem 3: Functions
-
 > The purpose of this assignment is to test your understanding and application of the concepts discussed in **Week 2**:
 >
 > - define functions that accept parameters and return values
@@ -16,6 +15,30 @@ Then, enhance your code to:
 - Validate user input to be positive integer numbers.
 - Display 'Wrong input' if not valid and quit.
 - Call the function to calculate the area and print the result.
+
+### Sample runs
+
+Valid input:
+```
+Enter base: 5
+Enter height: 4
+Area: 10.0
+```
+
+Input that is not a number:
+```
+Enter base: abc
+Wrong input
+```
+
+Zero or negative input:
+```
+Enter base: 5
+Enter height: -3
+Wrong input
+```
+
+Note: catching `ValueError` is sufficient for the exception handling.
 
 To start the assignment type in the terminal:
 ```
